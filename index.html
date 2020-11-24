@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="forms-container">
+            <div class="signin-signup">
+                <form action="/saveConfig" class="sign-in-form" id="form">
+                    <h2 class="title">Configurare lămpi</h2>
+                    <div class="input-field">
+                        <i class="fas fa-clock"></i>
+                        <input type="number" id="time" name="time" placeholder="Timp de stingere" />
+                    </div>
+                    <div class="input-field input-range">
+                        <i class="fas fa-sun"></i>
+                        <input type="range" id="sensibility" name="sensibility" />
+                    </div>
+                    <input type="submit" value="Salvează" class="save btn solid" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="fontawesome.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
